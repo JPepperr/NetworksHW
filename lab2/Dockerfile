@@ -9,4 +9,4 @@ RUN apt-get install -y iputils-ping
 
 COPY . .
 
-CMD [ "python3", "main.py"]
+ENTRYPOINT ["python3", "main.py"]
